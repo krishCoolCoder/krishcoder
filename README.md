@@ -35,3 +35,12 @@ http-server -p 8080 -c-1 dist/krishcoder
 
 token:
 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
+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
+
+https://admin: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@github.com/krishCoolCoder/krishcoder
+
+https://krishCoolCoder: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@github.com/krishCoolCoder/krishcoder
+
+
+https://krishCoolCoder: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@github.com/krishCoolCoder/krishcoder
+
