@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { HeaderComponent } from './header/header.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { BodyComponent } from './portfolio/body/body.component';
+import { HeaderComponent } from './portfolio/header/header.component';
+import { BodyTextComponent } from './portfolio/body/body-text/body-text.component';
+import { BodyImageComponent } from './portfolio/body/body-image/body-image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    PortfolioComponent,
+    BodyComponent,
+    BodyTextComponent,
+    BodyImageComponent
   ],
   imports: [
     BrowserModule,

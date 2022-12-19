@@ -1,0 +1,12 @@
+.container{
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    height: 650px;
+    width: 1400px;
+    /* margin: 20px; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}

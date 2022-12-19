@@ -1,0 +1,19 @@
+.container-body-text{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}   
+p{
+    font-size: 25px;
+    font-family: sans-serif;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+span{
+    margin: 20px;
+}

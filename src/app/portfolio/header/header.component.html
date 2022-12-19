@@ -1,0 +1,16 @@
+<div class="header-container">
+    <div class="header">
+    <div class="header-items" 
+    *ngFor="let item of headerLinks; let i = index;"
+    (click)="selectedItem(i)"
+    [ngClass] = "{'underLine' : selectedItemNo == i }"
+    >
+        <div class="home">
+            {{item.headerText}}
+        </div>
+        <div class="underLine">
+
+        </div>
+    </div>
+    </div>
+</div>
